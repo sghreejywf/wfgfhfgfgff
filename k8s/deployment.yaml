@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: dgfdss
+  name: wfgfhfgfgff
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: dgfdss
+      app: wfgfhfgfgff
   template:
     metadata:
       labels:
-        app: dgfdss
+        app: wfgfhfgfgff
     spec:
       containers:
-      - image: okteto.dev/dgfdss:latest
-        name: dgfdss
+      - image: okteto.dev/wfgfhfgfgff:latest
+        name: wfgfhfgfgff
         ports:
         - containerPort: 8080
         env:
